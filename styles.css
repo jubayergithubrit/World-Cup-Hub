@@ -3,6 +3,7 @@
 
 body {
     font-family: 'Poppins', sans-serif;
+    margin: 0;
 }
 
 /* -------------------Header-part -----------------*/
@@ -87,4 +88,57 @@ body {
     width: 350px;
     position: relative;
     bottom: 400px;
+}
+
+/* --------------------
+           Navbar-Part
+-------------------- */
+.navbar-grid {
+    margin-top: 100px;
+}
+
+.lists-background {
+    width: 312px;
+    height: 312px;
+    background-color: #161616;
+}
+
+.nav {
+    display: flex;
+
+    justify-content: left;
+    align-items: center;
+
+}
+
+.nav li {
+    border: 1px solid;
+    text-align: center;
+    width: 252px;
+    height: 40px;
+    list-style: none;
+    background: #FFFFFF;
+    border-radius: 10px;
+    padding-top: 10px;
+    margin-top: 30px;
+}
+
+/*--------------------
+ Transfer-Banner
+ ------------------ */
+.transfer-banner {
+    width: 312px;
+    height: 175px;
+    border-radius: 10px 10px 0px 0px;
+    margin-bottom: 15px;
+}
+
+.transfer-border {
+    display: inline;
+    border: 1px solid;
+
+}
+
+.transfer-info {
+    display: flex;
 }
