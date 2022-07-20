@@ -93,19 +93,28 @@ body {
 /* --------------------
            Navbar-Part
 -------------------- */
+.main-grid {
+    display: flex;
+}
+
 .navbar-grid {
     margin-top: 100px;
+    display: inline-block;
+
 }
 
 .lists-background {
-    width: 312px;
-    height: 312px;
+    width: 250px;
+    height: 270px;
+    border-radius: 10px;
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
     background-color: #161616;
 }
 
 .nav {
     display: flex;
-
     justify-content: left;
     align-items: center;
 
@@ -114,7 +123,7 @@ body {
 .nav li {
     border: 1px solid;
     text-align: center;
-    width: 252px;
+    width: 220px;
     height: 40px;
     list-style: none;
     background: #FFFFFF;
@@ -123,22 +132,88 @@ body {
     margin-top: 30px;
 }
 
+#blog {
+    color: #FFFFFF;
+    background-color: #DD0000;
+}
+
 /*--------------------
  Transfer-Banner
  ------------------ */
+.transfer-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: flex-start;
+    column-gap: 20px;
+    row-gap: 20px;
+    width: 312px;
+    height: 362px;
+    margin-top: 120px;
+    border-radius: 10px;
+}
+
+.transfer {
+    border: 1px solid lightgray;
+}
+
 .transfer-banner {
     width: 312px;
     height: 175px;
     border-radius: 10px 10px 0px 0px;
     margin-bottom: 15px;
+
 }
 
 .transfer-border {
     display: inline;
     border: 1px solid;
+    margin-left: 20px;
 
+}
+
+h4 {
+    margin-left: 20px;
 }
 
 .transfer-info {
     display: flex;
+    margin: 20px;
+}
+
+.transfer-info .duration {
+    margin-right: 10px;
+}
+
+/*---------------- 
+Footer-part
+------------- */
+.footer-part {
+    background-color: #161616;
+}
+
+.footer-goal {
+    color: #FFFFFF;
+    font-size: 30px;
+    margin-top: 140px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+hr {
+    width: 80%;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.footer-lists {
+    color: #FFFFFF;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+
+
+}
+
+.footer .footer-lists li {
+    margin-left: 30px;
 }
