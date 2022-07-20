@@ -50,7 +50,7 @@ body {
 
 /* animation-part */
 .field {
-    background-image: url(images/background.jpg);
+    background-image: url(images/playground.webp);
     background-size: cover;
     background-repeat: no-repeat;
     border: 1px solid;
@@ -226,4 +226,29 @@ hr {
 
 .footer .footer-lists li {
     margin-left: 30px;
+}
+
+/* ---------------
+For Small Devices
+------------------ */
+@media screen and (max-width:576px) {
+    h4 {
+        background-color: blueviolet;
+    }
+
+    .body {
+        width: 100%;
+        background-color: aqua;
+    }
+}
+
+@media screen and (min-width:577px) and (max-width:992pxS) {
+    .nav li {
+        width: 100%;
+        background-color: burlywood;
+    }
+
+    .transfer-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }

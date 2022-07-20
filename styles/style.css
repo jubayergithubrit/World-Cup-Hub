@@ -101,6 +101,10 @@ body {
     color: #161616;
 }
 
+.nav li:hover {
+    background-color: aquamarine;
+}
+
 /*--------------------
  Transfer-Banner
  ------------------ */
